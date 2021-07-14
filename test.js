@@ -16,7 +16,7 @@ test("One euro should be 1.206 dollars", function () {
 
 
 
-test("One dollar should be 106 dollars", function () {
+test("One yen should be 106 dollars", function () {
 
     const { fromDollarToYen } = require('./app.js')
 
@@ -36,7 +36,7 @@ test("One dollar should be 106 dollars", function () {
 
 
 
-test("One euro should be 1.206 dollars", function () {
+test("One Yen should be 0.006 pound", function () {
 
     const { fromYenToPound  } = require('./app.js')
 
